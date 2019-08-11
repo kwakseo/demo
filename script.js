@@ -4,7 +4,7 @@ $(document).ready(function(){
 	
 	checkURL();
 	$('ul li a').click(function (e){
-
+			console.log(this.hash + " hash");
 			checkURL(this.hash);
 
 	});
