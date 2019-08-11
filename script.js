@@ -48,7 +48,7 @@ function loadPage(url)
 	$.ajax({
 		type: "POST",
 		url: "load_page.php",
-		data: 'page='+url,
+		data: '{"page:" "'+ url + '"}',
 		dataType: "html",
 		success: function(msg){
 			
