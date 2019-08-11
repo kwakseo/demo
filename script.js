@@ -44,7 +44,7 @@ function loadPage(url)
 	url=url.replace('#page','');
 	
 	$('#loading').css('visibility','visible');
-	console.log(url + " url0");
+	console.log(url + " url1");
 	$.ajax({
 		type: "POST",
 		url: "load_page.php",
